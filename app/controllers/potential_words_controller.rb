@@ -1,0 +1,3 @@
+class PotentialWordsController < ApplicationController
+
+end

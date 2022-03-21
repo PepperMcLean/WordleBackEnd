@@ -1,0 +1,2 @@
+class PotentialWords < ApplicationRecord
+end
