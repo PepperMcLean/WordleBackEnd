@@ -2325,6 +2325,6 @@ zonal').split("
 ")
 
 for x in answers
-  WordAnswers.create(word:x)
+  WordAnswers.create(word:x, played:0)
 end
 # WordAnswers.order('RANDOM()').first

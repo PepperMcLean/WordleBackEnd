@@ -10,16 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_03_20_231105) do
-
-  create_table "potential_words", force: :cascade do |t|
-    t.string "word"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
+ActiveRecord::Schema.define(version: 2022_03_20_230936) do
 
   create_table "word_answers", force: :cascade do |t|
     t.string "word"
+    t.integer "played"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
